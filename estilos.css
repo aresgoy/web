@@ -55,17 +55,3 @@ video {
   margin-top: 20px;
   background-color: #000;
 }
-
-/* Estilo para la barra de progreso del video */
-video::-webkit-media-slider {
-  background-color: #3498db;
-}
-
-/* Estilo para el mensaje de respaldo si el navegador no admite el video */
-video::after {
-  content: "Tu navegador no soporta el elemento de video.";
-  display: block;
-  color: #e74c3c;
-  font-size: 1.2em;
-  margin-top: 10px;
-}
